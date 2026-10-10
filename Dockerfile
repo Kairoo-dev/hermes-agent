@@ -1,4 +1,4 @@
-FROM nousresearch/hermes-agent:latest
+FROM nousresearch/hermes-agent:v0.21.6
 
 COPY start.sh /opt/hermes/railway-start.sh
 RUN chmod +x /opt/hermes/railway-start.sh
